@@ -1,4 +1,4 @@
-# ENGLISH: every word on services.amzixz.id.lv/
+# ENGLISH: every word on studios.amzixz.me/
 #
 # HOW TO EDIT
 #   Change the text between the double quotes. Leave everything else alone.
@@ -19,10 +19,10 @@
 #   quote/indent you broke) and commit again.
 
 meta:
-  title: "AmziXz Services · Websites and applications, made to measure"
-  description: "AmziXz Services builds websites and applications to your brief, at a fixed price agreed before any work starts. You keep the source."
+  title: "AmziXz Studios · Websites and applications, made to measure"
+  description: "AmziXz Studios builds websites and applications to your brief, at a fixed price agreed before any work starts. You keep the source."
   share_description: "Websites and applications built to your brief, at a fixed price agreed up front. You keep the source."
-  share_image_alt: "AmziXz Services logo, gold on black"
+  share_image_alt: "AmziXz Studios logo, gold on black"
   # What search engines read about the business (not visible on the page)
   schema_description: "Website and application development, built to a brief at a fixed price."
   schema_offers:
@@ -96,7 +96,7 @@ work:
   title: "Work you can"
   title_accent: "visit."
   tag: "Personal site"
-  name: "amzixz.id.lv"
+  name: "amzixz.me"
   text: "The AmziXz home on the web: work, ventures and contact, in English and Latvian."
   facts:
     - label: "Languages"
@@ -108,12 +108,12 @@ work:
     - label: "Hosting"
       value: "GitHub Pages"
   cta: "Visit the site"
-  visit_label: "Visit amzixz.id.lv"
+  visit_label: "Visit amzixz.me"
   # Where the card links, the address shown in the little browser bar, and the picture
-  url: "https://amzixz.id.lv/"
-  address: "amzixz.id.lv"
+  url: "https://amzixz.me/"
+  address: "amzixz.me"
   image: "/assets/work-amzixz.webp"
-  image_alt: "The amzixz.id.lv home page in dark mode, headline: Curious about everything. Building most of it."
+  image_alt: "The amzixz.me home page in dark mode, headline: Curious about everything. Building most of it."
 
 process:
   label: "Process"
@@ -177,7 +177,7 @@ faq:
     - question: "How long does a project take?"
       answer: "A landing page is usually days rather than weeks; a full site or an application depends entirely on scope. You get a timeline with the quote, before any work starts."
     - question: "What does it cost to keep a site running?"
-      answer: "Often nothing beyond your domain. Static sites can be hosted free on GitHub Pages, as this site and amzixz.id.lv both are. If your project needs a server or paid services, we tell you what they cost before you commit."
+      answer: "Often nothing beyond your domain. Static sites can be hosted free on GitHub Pages, as this site and amzixz.me both are. If your project needs a server or paid services, we tell you what they cost before you commit."
 
 contact:
   label: "Enquiries"
@@ -208,11 +208,11 @@ contact:
   send_whatsapp: "Send on WhatsApp"
   send_email: "Send by email"
   # The message that arrives on WhatsApp or in the email
-  message_greeting: "Hello AmziXz Services,"
+  message_greeting: "Hello AmziXz Studios,"
   message_kind: "Project"
   message_when: "Timeline"
   message_name: "Name"
-  message_signature: "(sent from services.amzixz.id.lv)"
+  message_signature: "(sent from studios.amzixz.me)"
   email_subject: "Project enquiry"
   # The title of the live preview of that message, beside the form
   preview_label: "Your message"
@@ -230,12 +230,12 @@ footer:
   email: "Email"
   place: "Latvia · Worldwide"
   # Where "Main site" and "Ventures" go
-  main_site_url: "https://amzixz.id.lv/"
-  ventures_url: "https://amzixz.id.lv/ventures"
+  main_site_url: "https://amzixz.me/"
+  ventures_url: "https://amzixz.me/ventures"
 
 # The page shown for an address that does not exist
 not_found:
-  title: "AmziXz Services · Page not found"
+  title: "AmziXz Studios · Page not found"
   label: "Error 404"
   heading: "This page"
   heading_accent: "isn't here."

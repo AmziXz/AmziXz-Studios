@@ -1,7 +1,7 @@
-# services.amzixz.id.lv
+# studios.amzixz.me
 
-The AmziXz Services site: a one-page static site in English and Latvian,
-served by GitHub Pages at **<https://services.amzixz.id.lv>**.
+The AmziXz Studios site: a one-page static site in English and Latvian,
+served by GitHub Pages at **<https://studios.amzixz.me>**.
 
 It sells websites and applications built to a brief, each at a fixed price
 agreed before work starts, with the source handed over.
@@ -108,7 +108,7 @@ apart in structure.
   The main site's Latvian pages use the informal "tu"; a services site
   talking to clients should not.
 - **Links:** Latvian pages link to the Latvian main site
-  (`amzixz.id.lv/lv/...`), set in `lv.yml`.
+  (`amzixz.me/lv/...`), set in `lv.yml`.
 - **404:** Pages serves one `404.html` for the whole site. It speaks the first
   language, with a line and a link for each of the others.
 
@@ -125,22 +125,22 @@ The menu, `hreflang` tags, sitemap and 404 pick it up on their own.
 
 GitHub Pages allows exactly **one custom domain per repository**; the `CNAME`
 file holds a single hostname. The main site's repo (`AmziXz/amzixz.github.io`)
-already spends its `CNAME` on `amzixz.id.lv`, so the subdomain needs a repo of its
+already spends its `CNAME` on `amzixz.me`, so the subdomain needs a repo of its
 own. There is no way around that on Pages.
 
 DNS, at nic.lv:
 
 ```
-amzixz.id.lv           A      185.199.108.153   (and .109 / .110 / .111)
-services.amzixz.id.lv  CNAME  amzixz.github.io
+amzixz.me           A      185.199.108.153   (and .109 / .110 / .111)
+studios.amzixz.me  CNAME  amzixz.github.io
 ```
 
 The subdomain's CNAME points at the **user** Pages host, `amzixz.github.io`,
 not at anything with "services" in it. Pages routes by hostname; this repo's
-`CNAME` file is what claims `services.amzixz.id.lv`.
+`CNAME` file is what claims `studios.amzixz.me`.
 
 **Never delete `CNAME`.** Removing it releases the subdomain while DNS still
-points at GitHub, and anyone could then claim it. Keep `amzixz.id.lv` verified
+points at GitHub, and anyone could then claim it. Keep `amzixz.me` verified
 under GitHub Settings -> Pages -> Verified domains so that cannot happen.
 
 ## Structure
@@ -153,7 +153,7 @@ sitemap.xml           Templated from the language list
 _layouts/home.html    The page template
 _data/                Wording, languages, contact details (see above)
 _config.yml           Jekyll: strict mode, origin, asset_version, excludes
-CNAME                 services.amzixz.id.lv — deleting it drops the subdomain
+CNAME                 studios.amzixz.me — deleting it drops the subdomain
 robots.txt            Allows everything, points at the sitemap
 serve.js              Local preview (renders templates like Jekyll)
 check.js              Translation checker (npm run check)
@@ -168,8 +168,8 @@ assets/
   brief.js            The project brief builder and its live preview (see Enquiries)
   fonts/              Mona Sans (variable: weight + width) + JetBrains Mono,
                       latin + latin-ext, with their OFL licences
-  work-amzixz.webp    Screenshot of amzixz.id.lv for Recent work (EN)
-  work-amzixz-lv.webp The same for amzixz.id.lv/lv/ (LV)
+  work-amzixz.webp    Screenshot of amzixz.me for Recent work (EN)
+  work-amzixz-lv.webp The same for amzixz.me/lv/ (LV)
   logo-full.jpg       Brand master. Every icon below is cut from this.
   mark.webp           The AX monogram cut out with real transparency (31 KB):
                       hero, header and footer
@@ -232,7 +232,7 @@ Mostly the same as the main site, for the same reasons:
 - **The phone menu breakpoint (900px) lives in two places**: `style.css` and
   `assets/menu.js`. Change both. The template also has a `<noscript>` style
   that shows the links inline when the menu button cannot work.
-- **Links to the main site are absolute** (`https://amzixz.id.lv/...`). It is a
+- **Links to the main site are absolute** (`https://amzixz.me/...`). It is a
   different origin; `/ventures` would resolve to this site and 404.
 - **Menu targets (`id="services"`, `#work`, …) are on each section's `.wrap`,
   not the `<section>`.** On the section, a menu click landed on 150-200px of
