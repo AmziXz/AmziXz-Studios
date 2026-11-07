@@ -1,6 +1,6 @@
-# AmziXz Services — design system (Master)
+# AmziXz Studios — design system (Master)
 
-The source of truth for how services.amzixz.id.lv looks. It sits where
+The source of truth for how studios.amzixz.me looks. It sits where
 [ui-ux-pro-max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) looks
 for a persisted design system (`design-system/<project-slug>/MASTER.md`), so a
 later run of that tool finds it instead of regenerating one.
@@ -147,7 +147,7 @@ Only work that is **live, confirmed and defensible** goes in Recent work:
 - **confirmed:** every fact on the card is true, and the name is final;
 - **defensible:** if a client asks how it was built, the answer matches the card.
 
-As of 2026-09-26 that is only amzixz.id.lv. Two projects were considered and
+As of 2026-09-26 that is only amzixz.me. Two projects were considered and
 held back:
 
 - **Sable** (Discord bot): not live, name not final, no confirmed feature set.

@@ -1,9 +1,9 @@
 {
-  "name": "amzixz-services-tooling",
+  "name": "amzixz-studios-tooling",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Local tooling for services.amzixz.id.lv. GitHub Pages builds the site with Jekyll; these packages only let serve.js preview the templates locally and let check.js verify the translations. Nothing here is served.",
+  "description": "Local tooling for studios.amzixz.me. GitHub Pages builds the site with Jekyll; these packages only let serve.js preview the templates locally and let check.js verify the translations. Nothing here is served.",
   "license": "MIT",
   "scripts": {
     "start": "node serve.js 8001",

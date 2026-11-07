@@ -8,7 +8,7 @@ it with `--persist --force`.
 ## Two repos, one brand
 
 This is a **separate repository on purpose**: GitHub Pages allows one custom
-domain per repo, and the main repo's `CNAME` is already spent on `amzixz.id.lv`.
+domain per repo, and the main repo's `CNAME` is already spent on `amzixz.me`.
 
 - **Never delete `CNAME`.** It claims the subdomain.
 - The main site is `AmziXz/amzixz.github.io`. Its header and footer link here
@@ -23,7 +23,7 @@ Like the main site, the work moves between computers, and the drive records no
 ownership. Git needs this once per machine, with your actual path:
 
 ```bash
-git config --global --add safe.directory "F:/- Projects/Majaslapas/AmziXz-Services"
+git config --global --add safe.directory "F:/- Projects/Majaslapas/AmziXz-Studios"
 ```
 
 Without it every git command fails with "detected dubious ownership". **Push

@@ -9,7 +9,7 @@
 
 # Used for canonical URLs, hreflang and the sitemap. Deliberately not
 # site.url: GitHub's metadata plugin rewrites that one.
-origin: "https://services.amzixz.id.lv"
+origin: "https://studios.amzixz.me"
 
 # The ?v=N cache-buster on every /assets reference. Bump it after changing
 # anything in /assets; one number, every page follows.
