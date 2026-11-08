@@ -9,7 +9,7 @@ agreed before work starts, with the source handed over.
 **The Discord bot is deliberately not on the page.** It is in development,
 its name isn't final, and its features aren't confirmed. It goes back on
 when it is live. The same rule covers the "Recent work" section: see
-`design-system/amzixz-services/MASTER.md`, "Content rule".
+`design-system/amzixz-studios/MASTER.md`, "Content rule".
 
 ## Changing the wording
 
@@ -182,7 +182,7 @@ assets/
 ## Design
 
 The design system is in
-[`design-system/amzixz-services/MASTER.md`](design-system/amzixz-services/MASTER.md):
+[`design-system/amzixz-studios/MASTER.md`](design-system/amzixz-studios/MASTER.md):
 the ui-ux-pro-max queries it came from, the tokens, and which of the tool's
 suggestions were overridden and why. Read it before changing a colour.
 
