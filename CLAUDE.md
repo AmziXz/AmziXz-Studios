@@ -1,7 +1,7 @@
 # Working notes for this repo
 
 Read `README.md` first. For anything visual, also read
-`design-system/amzixz-services/MASTER.md`: it is the design system, and it says
+`design-system/amzixz-studios/MASTER.md`: it is the design system, and it says
 which ui-ux-pro-max suggestions were deliberately overridden. Do not regenerate
 it with `--persist --force`.
 
@@ -61,7 +61,7 @@ npm run check   # translation files: same keys, same list lengths
   (`package.json`, `serve.js`, `check.js`) from being published; add any new
   tooling file to its `exclude` list.
 - After changing anything in `/assets`, add one to `asset_version` in
-  `_config.yml`. Every page follows. Currently `8`.
+  `_config.yml`. Every page follows. Currently `9`.
 - Run `npm run check`, and build once with real Jekyll if you changed the
   template: the preview matches it, but GitHub is the one that publishes.
 - The page has two themes, set per chapter with `data-theme`. New text
